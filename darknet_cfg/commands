@@ -1,0 +1,3 @@
+./darknet detector train mate_cfg/hand.data mate_cfg/hand_tiny_yolo_v2.cfg darknet19_448.conv.23
+
+./darknet detect mate_cfg/hand_tiny_yolo_v2.cfg backup/hand_tiny_yolo_v2_600.weights /home/ubuntu/data/hand_labels/yolo_train/00001.jpg
